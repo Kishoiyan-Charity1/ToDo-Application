@@ -3,22 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "build:tailwindcss": "command",
-    
-    "build:webpack": "command",
-    "build": "npm-run-all build:tailwindcss build:webpack",
-
-    
+    "build": "run-p build:tailwindcss build:webpack",
+    "build:tailwindcss": "tailwindcss build",
+    "build:webpack": "webpack"
   },
   "engines": {
-    "node": "^18.14.2"
-
-
-
+    "node": "^14.17.3"
   },
   "keywords": [],
   "author": "",
@@ -59,4 +52,3 @@
   },
   "description": ""
 }
-// "build": "run-p build:tailwindcss build:webpack",
