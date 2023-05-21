@@ -7,9 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "build": "run-p build:tailwindcss build:webpack",
-    "build:tailwindcss": "tailwindcss build",
-    "build:webpack": "webpack"
+    "build:tailwindcss": "command",
+    
+    "build:webpack": "command",
+    "build": "npm-run-all build:tailwindcss build:webpack",
+
+    
   },
   "engines": {
     "node": "^18.14.2"
@@ -56,3 +59,4 @@
   },
   "description": ""
 }
+// "build": "run-p build:tailwindcss build:webpack",
