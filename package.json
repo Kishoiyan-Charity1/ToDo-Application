@@ -2,6 +2,8 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "main": "index.js",
+  
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
@@ -10,7 +12,10 @@
     "build:webpack": "webpack"
   },
   "engines": {
-    "node": "^14.17.3"
+    "node": "^18.14.2",
+
+
+
   },
   "keywords": [],
   "author": "",
