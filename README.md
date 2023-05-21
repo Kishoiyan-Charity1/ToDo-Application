@@ -6,8 +6,8 @@
 ###### Firebase Authentication for user authentication
 
 # Setup
-######Clone the repository
-  ######git clone <application url>
+###### Clone the repository
+###### git clone <application url>
   
  # Navigate to the project directory
   ###### cd < >
